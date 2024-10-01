@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+
+    align-items: center;
+    background-color: #448357;
+    width: 100vw;
+    height: 10vh;
+    color: white;
+
+}
+
+section {
+
+    width: 100vw;
+    height: 98vh;
+    display: flex;
+
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+}
+
+nav ul li {
+    margin-left: 50px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.retangulo {
+    width: 70vw;
+    height: 100vh;
+    background-color: #283b2e;
+    margin-right: 20px;
+
+}
+
+.container {
+    max-width: 500px;
+    margin: 250px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
